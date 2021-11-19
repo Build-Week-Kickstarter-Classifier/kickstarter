@@ -38,22 +38,25 @@ The packages used include:
 - [Numpy](https://numpy.org/doc/stable/index.html)
 - [Scikit Learn](https://scikit-learn.org/stable/)
 - [Flask](https://flask.palletsprojects.com/en/2.0.x/)
+- [SQL Alchemy](https://www.sqlalchemy.org/)
+- [Pickle](https://github.com/python/cpython/blob/3.10/Lib/pickle.py)
+- [Category Encoders](https://contrib.scikit-learn.org/category_encoders/)
 
 #### Features
 
-The application uses Flask to power the search query/input. From the user input, 
+The application uses Flask to power the search query/input. From the user input, the data is cleaned and run through a KNN model where predictions for success are based.  
 
 #### API Reference
-
+No API references were used for this project. 
 
 ## Contribute
 
 TBD
 
 ## Team
-DAN KOSITZKE()\
-MITCH HOLBERG()\
-OLATOMI ADIGUN ()\
+DAN KOSITZKE(Data Modeling)\
+MITCH HOLBERG(Data Engineering)\
+OLATOMI ADIGUN (Flask & Front End)\
 BIANCA KLUCIK (spectator, summarizer)
 
 ## License
